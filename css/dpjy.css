@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f7f7f7!important;
+	}
+body a{
+	text-decoration: none;
+	/* font-size: 16px; */
+	 color: #434343;
+}
+.big{
+	width: 1140px;
+	margin: 0 auto;
+}
+#fixed-point{
+	width:182px;
+	height:99.5px;
+	position: fixed;bottom: 168px;right: 0px;z-index: 999;
+	padding: 10px 0 0 30px;
+	box-shadow:0px 5px 20px #37c266 ;
+	background-color: #37C266;
+	border-top-left-radius:60px;
+	border-bottom-left-radius:60px;
+	color: #fff;
+	font-size: 13px;
+	
+}
+.top{
+	width: 1180px;
+	margin: 0 auto;
+	height: 80px;
+}
+.top a{
+	display: inline-block;
+	color: #DDDDDD;
+	margin: 6px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	margin-top: 22px;
+}
+ .nav a:hover{
+	color: #fff;
+}
+.sanjiao{
+	width:0px;
+	height:0px;
+	border-width:8px 0px 8px 8px;
+	border-style:solid;
+	border-color:transparent transparent transparent #fff;/*透明 透明 透明 灰*/
+	position: absolute;
+	top:-11px;
+	right:48px;
+	z-index: 10;
+	transform: rotate(270deg);
+}
+#enter-hide{
+	width: 100px;background-color: #FFFFFF;box-shadow:0px 0px 10px #666666;position: absolute;border: 0.7px solid#CCCCCC;right: -18.5px;top:28px;text-align: center;padding-top: 10px;padding-bottom:10px;display:none;
+}
+#enter-a:hover #enter-hide{
+	display: block;
+}
+.logo{
+	margin: 14px 0px;
+	float: left;
+}
+.bar input{
+	width:120px;height:25px;border: none; background:rgba(40,40,54,.2);
+	color: #c1c1cc;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.bar input::-webkit-input-placeholder{
+	color: #c1c1cc;
+}
+.bar button{
+	width:25px;height:25px;border:none; background-color:rgba(40,40,54,.2);text-align: center;margin-left: -5px;position: relative;top: 2px;
+}
+.bar:hover input{
+	border:1px solid #FFFFFF;
+}
+.bar:hover button{
+	border:1px solid #FFFFFF;
+}
+
+#magnifying-glass{
+ font-size: 2em; /* This controls the size.做搜索放大镜图标矢量效果 */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid #FFFFFF;
+ position: relative;
+ border-radius: 0.35em;}
+#magnifying-glass::before{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: -0.25em;
+ bottom: -0.1em;
+ border-width: 0;
+ background: #FFFFFF;
+ width: 0.35em;
+ height: 0.08em;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+}
+.banner{
+	width: 1263px;background-size:cover ;background-position: center;height: 100%;
+	float: left;
+}
+#banner-photo{
+	animation: switch 10s ease-out infinite;
+	animation-fill-mode: backwards;
+	width: 5052px;height: 500px;
+} 
+@keyframes switch{
+	0%,20%{
+		margin-left: 0;
+	}
+	25%,45%{
+		margin-left: -1260px;
+	}
+	50%,70%{
+		margin-left: -2520px;
+	}
+	75%,85%{
+		margin-right: -3600px;}
+		87%,95%{
+			margin-left: -3750px;
+		}
+	96%,100%{
+		margin-left: 0px;
+	}
+} 
+.banners-bar{
+	float: left;
+	width: 276px;
+	margin: 4px;
+	box-shadow: 0px 8px 10px -5px #ccc, 0px 5px 15px #6E6568 inset;
+}
+#small-photo{
+	width: 278px;height: 97px;position: absolute;
+	left: 1px;top: 24px;
+	border-radius: 3px;
+	 box-shadow: 0px 20px 15px -20px #000 inset,0px -20px 15px -20px #000 inset;
+	 background-color: rgba(,0,0,0.05);
+	z-index: 999;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	filter: brightness(100%);
+}
+.s-bannnerbar{
+	animation: switch2 10s ease-out infinite;
+	animation-fill-mode: backwards;
+	width: 2280px;padding:20px 0;height:135px;margin: 1px auto;text-align: center;position: relative;
+	left: -2px;
+}
+@keyframes switch2{
+	0%,20%{
+		margin-left: 0;
+	}
+	25%,45%{
+		margin-left: -284px;
+	}
+	50%,70%{
+		margin-left: -568px;
+	}
+	75%,85%{
+		margin-right: -852px;}
+		87%,95%{
+			margin-left: -853px;
+		}
+	96%,100%{
+		margin-left: 0px;
+	}
+} 
+#more-class:hover{
+	color: #37c266;
+	font-size: 17.5px;
+}
+
+.left-box{
+	width: 444px;
+height: 389px;
+border-radius: 10px;
+box-shadow: 0px 10px 20px #ededed;
+float:left;transition: all 0.6s linear; 
+}
+.tu{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: hidden;
+}
+.left-box p{
+	margin: 10px 10px 0 10px;
+}
+.left-box:hover p{
+	color: #6b6b7e;
+	text-decoration: underline;
+}
+.left-box span{
+	font-size: 12px;
+	color: #b1b1b;line-height: 1.5;
+	margin-left: 10px;
+}
+.studying{width: 84px;height: 17px;
+	display: inline-block;
+	color: #00d753;font-size: 12px;position:absolute;bottom:-16px;left:354px ;
+}
+.left-box:hover .tu{
+	filter: brightness(88.5%);
+	box-shadow: 0 0 25px #C1C1CC inset; 
+}
+.left-box:hover{
+	transform: scale(1.04,1.04);
+	 transition-duration: 0.5s;
+}
+.box{
+	width: 212px;height: 184px;
+	float: left;
+	margin:0 0 22px 20px ;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px #ededed;
+	transition: all 0.6s linear; /* 写此处可达到移开鼠标后恢复图片大小也匀速缓慢 */
+}
+.box p{
+	margin: 5px 10px 0 5px;
+}
+.box:hover p{
+	color: #6b6b7e;
+	text-decoration: underline;
+}
+.box span{
+	font-size: 12px;
+	color: #b1b1b;line-height: 1.5;
+	margin-left: 5px;
+}
+.studying2{width: 84px;height: 17px;
+	display: inline-block;
+	color: #00d753;font-size: 12px;
+	position: relative;left: 3px;top:8px
+}
+.box:hover .tu{
+	filter: brightness(88.5%);
+	box-shadow: 0 0 25px #C1C1CC inset; 
+}
+.box:hover{
+	transform: scale(1.04,1.04);
+	 /* transition-duration: 0.5s; */
+}
+#more-new{
+	width: 112px;height: 32px;
+	background-color:#242424 ;
+	border-radius: 16px;
+	color: #fff;
+	line-height: 32px;
+	box-shadow: 1px solid #979797;
+	display: block;
+	margin: 15px auto;
+}
+#more-new:hover{
+	background-color: #979797;
+}
+.comment{
+	margin: 0 auto;
+}
+.comment li{
+	float: left;
+	margin: 30px;
+}
+.comment span{
+	position: relative;
+	top: -48px;
+}
+#nav-bar{
+	margin-left: -52px;
+}
+#nav-bar li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 50px;
+	color: #8F8FB3;
+	font-size: 17px;
+	margin-bottom: 10px;
+	line-height: 44px;
+}
+.nav2{
+	list-style: none;
+	float: left;
+	padding-left: 50px;
+	width: 129px;
+}
+.nav2 a{
+	color: #838383;
+	font-size:14px;
+	}
+.nav2 a:hover{
+	text-decoration: underline;
+}
+#nav-1{
+	color: #8F8FB3 !important;
+	font-size: 17px!important;
+	margin: 35px 0 10px 0;
+}
+.bottom{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.bottom a{
+	color: #3f3f3f;
+	font-size: 14px;
+margin-left: 15px;
+}
+.bottom a:hover{
+	text-decoration: underline;
+}

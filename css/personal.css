@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#people-state{
+	width: 160px;
+	float: left;
+}
+.peoplelist{
+	margin-bottom: 40px;
+}
+.peoplelist p{
+	color: #999;
+	font-size: 18px;
+	margin: 5px;
+}
+.peoplelist a{
+	color: #444;
+	font-size: 14px;
+	margin: 5px;
+	padding-left: 15px;
+	line-height: 27px;
+}
+.peoplelist a:hover{
+	color: #00D853;
+}
+.people-row1{
+	width: 290px;
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+.lsr{
+	font-size: 14px;
+	color: #999;
+	margin: 0 0 3px;
+}
+.people-row1 a{
+	color: #00D853;
+	font-size: 14px;
+}
+#courseSelect{
+	appearance: none;
+	overflow: visible;
+	border-left:1px solid #999;
+	border-right: none;
+	border-bottom-style: none;
+	border-top:none;
+	width: 154px;height: 100%;
+	color: #00D853;
+}
+.tow-box{
+	width: 465px;
+	height: 179px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.towbox-row1{
+	margin: 20px 15px 10px 15px;color:#FFFFFF;font-size: 24px;
+}
+.towbox-row1 img{
+	position: relative;
+	top:6px;
+	padding-left:8px;
+	left: -1px;
+}
+.already{
+	font-size: 14px;
+	color: #FCD4A3;
+	font-weight: 700;
+	margin-left:35px;
+	line-height: 10px;
+}
+.alread-bar{
+	display: inline-block;
+	width: 256px;height: 10px;
+	border: 2px solid #FCD4A3;
+	border-radius: 22px;
+	margin-left: 17px;
+	position: relative;top:6px;
+}
+.towbox-row2{
+	font-size: 14px;
+	color: #FCD4A3;
+	font-weight: 300;
+	margin-left:4.5px;
+	
+}
+.section{
+	width: 100px;
+	height: 100%;
+	background-color: #FCD4A3;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-left: -2px;
+	position: relative;top:-5px;
+}
+.towbox-row3{
+	color: #fff;
+	font-size: 14px;
+	margin: 37px 36px;
+}
+.towbox-row3 img{
+	width: 25px;
+	position: relative;
+	top:8px;
+}
+.sanjiao2{
+	width:0px;
+	height:0px;
+	border-width:8px 0px 8px 8px;
+	border-style:solid;
+	border-color:transparent transparent transparent #fff;/*透明 透明 透明 灰*/
+	position: absolute;
+	top:20px;
+	z-index: 10;
+	transform: rotate(-270deg);
+}
+.classes{
+	width: 60px;position: relative;text-align: center;
+}
+.classes input{
+	width:100%;position: relative;text-align: center;height: 52px;background-color: #00D753;
+	opacity: 0;
+	position: absolute;top:10px;left: 20px;
+}
+input[type=checkbox]:checked  span{
+	transform: rotate(-90deg);
+}
+.class-hide{
+	width: 200px;height: 200px;background-color: #00D753;
+	/* display: none; */
+}
+input[type=checkbox],.class-hide{ display:none; } 
+input[type=checkbox]:checked+.class-hide{ display:block;} 

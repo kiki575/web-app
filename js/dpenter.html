@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登入页面</title>
+		<link rel="shortcut icon" href="../img/n1.ico" />
+		<style type="text/css">
+			body{
+				background: url(../img/登入背景.jpg);
+				background-size: cover;		
+				}
+			/* h1{
+				margin: 60px auto 10px auto;
+				letter-spacing: 2px;
+				font-family: "黑体";
+				font-weight: 800;
+			} */
+			span{
+				font-family: "新宋体";
+				font-size:small;
+				position: relative;
+				text-align: center;
+				left: 280px;
+				top:-130px;
+				color: #242424;
+				font-weight: 600;
+				
+			}
+			p{font-family: "新宋体";
+				font-size: 13px;
+				margin: -5px auto;
+				}
+			
+			.box{
+				margin: 100px auto;
+				width: 500px;
+				height: 300px;
+				background-color:rgba(255,255,255,0.184);
+				border-radius: 20px;
+				box-shadow: 0px 0px 10px rgba(255,255,255,0.52);
+					
+			}
+			form{
+				margin:20px auto ;
+				position: relative;
+				left: 50px;
+				top: 30px;
+			}
+			input{
+				margin: 15px auto;
+				width: 250px;
+				height: 30px;
+				background-color:rgba(255,255,255,1);
+				border:0;
+				border-radius: 10px;
+			}
+			button{
+				background-color: #aac9e0;
+				margin: 15px auto;
+				width:150px;
+				height: 35px;
+		        border: 0;
+				box-shadow: 0 0 4px #979797;
+				position: relative;
+				left: 45px;
+				
+			}
+			#point{
+				position: absolute;
+				left: 10%;
+			}
+			#point a{
+				text-decoration: none;
+				font-size: 13px;
+				color:#000;
+			}
+			#point a:hover{
+				color: green;
+			}
+			img{
+				width: 15%;
+				height: 25%;
+			   position: relative;
+			   left:350px ;
+			   top: -150px;  
+			}
+		
+		</style>
+	</head>
+	<body>
+		
+		<div class="box">
+			<form>
+				<input type="text" id="user" placeholder="用户输入"  />
+				<input type="password" id="password" placeholder="输入密码"  />
+				<br />
+				<a href="../dpjy.html"><button type="button" >登&nbsp;&nbsp;入</button></a>
+				<p id="point">
+				还没有账号? <a href="">立即注册</a></p>
+						
+			</form>
+			
+					<img src="../img/二维码.gif" />
+					<span>[扫一扫]<br/>
+					&nbsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;直接登入</span>
+					
+				
+				
+		</div>
+	</body>
+</html>
