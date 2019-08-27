@@ -93,7 +93,7 @@
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	margin-left: -2px;
-	position: relative;top:-5px;
+	position: relative;top:-3.5px;
 }
 .towbox-row3{
 	color: #fff;
@@ -132,4 +132,61 @@ input[type=checkbox]:checked  span{
 	/* display: none; */
 }
 input[type=checkbox],.class-hide{ display:none; } 
-input[type=checkbox]:checked+.class-hide{ display:block;} 
+input[type=checkbox]:checked+.class-hide{ display:block;}
+
+.car-goods{
+	border-bottom: dashed 1px #ededed;
+	color: #666;
+	height: 50px;
+	text-align: center;
+	background-color: #f9f9f9;
+	padding: 8px;
+}
+.car-goods td:nth-child(2) prm{
+	color:#fc7e22;
+}
+.car-goods td:nth-child(2) i{
+	text-decoration:line-through;color:#b5b5b8!important;font-size: 14px;
+}
+.car-goods td:nth-child(2) p{
+	font-size: 14px;
+	color: #7b7979;
+	margin-left: -75px;
+}
+.car-goods td:nth-child(3) button{
+	background-color:#edebeb;
+	color: #6a6a6b;
+	height: 15px;
+	width: 15px;
+	border: none;
+}
+.car-goods td:nth-child(4){
+	color:#F7931E;
+	/*#37C3FF*/
+	text-decoration: underline;
+}
+#payfor button{
+	width: 100px;
+	height: 38px;
+	background-color:#f68434;
+	border: none;
+	border-radius: 45px;
+	color: #ffFFFF;
+	font-size: 16px;
+	margin-right: 20px;
+	vertical-align: super;
+}
+#total{
+	margin-right:15px;
+	color: #585656;
+	vertical-align: super;
+	display: inline-block;
+	line-height: 20px;
+}
+tfoot p span{
+	display: block;
+	color:#666666;font-size: 14px;text-align: right;line-height: 20px;
+}
+#clean-car{
+	width: 50%;height: 100%;float: left;color:#615d5d;font-size: 17px;padding-left: 28px;
+}
